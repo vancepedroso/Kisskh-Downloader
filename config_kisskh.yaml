@@ -1,0 +1,30 @@
+# config_kisskh.yaml
+#
+# The download_dir here is only a fallback reference.
+# When running through the web UI, the app automatically redirects
+# kisskh-dl.py to a per-session temp folder, then streams the file
+# to the user's browser and deletes it. Nothing stays on the server.
+#
+# Keep your original paths for local CLI use.
+# On PythonAnywhere, these paths are overridden at runtime anyway.
+
+Anime, Drama, Movies & TV Shows (Kisskh):
+  download_dir: D:\kisskh dl\Videos
+  request_timeout: 30
+  alternate_resolution_selector: "lowest"
+  preferred_urls:
+  blacklist_urls:
+
+DownloaderConfig:
+  download_dir: D:\kisskh dl\Videos
+  temp_download_dir: auto
+  concurrency_per_file: auto
+  request_timeout: 30
+  max_parallel_downloads: 2
+
+LoggerConfig:
+  log_level: INFO
+  log_dir: logs
+  max_log_size_in_kb: 100
+  log_backup_count: 3
+  log_retention_days: 7
