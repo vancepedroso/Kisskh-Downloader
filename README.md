@@ -2,32 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Kisskh Downloader</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 40px;
-      background: #ffffff;
-      color: #222;
-    }
-    h1, h2, h3 {
-      color: #111;
-    }
-    code, pre {
-      background: #f4f4f4;
-      padding: 10px;
-      display: block;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
-    .box {
-      border: 1px solid #ddd;
-      padding: 15px;
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
-  </style>
 </head>
 <body>
 
